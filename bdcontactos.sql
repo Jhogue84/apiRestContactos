@@ -100,3 +100,6 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+INSERT INTO `usuarios` (`id`, `nombres`, `apellidos`, `correo`, `clave`) VALUES
+(1, 'jhonny', 'guerrero', 'jhorguma@misena.edu.co', '123');
