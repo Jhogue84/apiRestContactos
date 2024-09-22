@@ -103,3 +103,8 @@ COMMIT;
 
 INSERT INTO `usuarios` (`id`, `nombres`, `apellidos`, `correo`, `clave`) VALUES
 (1, 'jhonny', 'guerrero', 'jhorguma@misena.edu.co', '123');
+
+INSERT INTO `contactos` (`id`, `nombres`, `apellidos`, `correo`, `telefono`, `celular`, `direccion`, `imagen`, `idUsuario`) VALUES
+(1, 'Lasy', 'Mora', 'lasymora@gmail.com', '33333', '11111', 'calle 2 3-9', NULL, 1),
+(5, 'Pepe', 'Perez', 'pp@gmail.com', NULL, '25558', '2255', NULL, 1),
+(6, '', '', '', NULL, '', '', NULL, 1);
